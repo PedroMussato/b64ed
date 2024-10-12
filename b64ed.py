@@ -98,6 +98,10 @@ def check_output_file(args):
 
     return file        
         
+if len(sys.argv) < 3:
+    print(usage)
+    sys.exit(1)
+
 
 # check mode and input file
 mode, input_file = check_mode_and_file(sys.argv)
