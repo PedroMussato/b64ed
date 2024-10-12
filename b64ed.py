@@ -23,7 +23,7 @@ def main():
 
 usage = \
 """\
-b64ed [parameters] -i <input file>
+b64ed [parameters]
 
 Parameters:
     -e --encode <file path> - encode file
